@@ -89,11 +89,15 @@ body {
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
   border-radius: 16px;
   margin-top: 20px;
+  aspect-ratio: 3 / 5;
+  overflow: hidden;
 }
 
 .photo-frame img {
   max-width: 100%;
   height: auto;
+  max-height: 400px;
+  object-fit: cover;
   border-radius: 12px;
   display: block;
 }
